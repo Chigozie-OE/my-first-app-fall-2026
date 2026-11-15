@@ -43,6 +43,8 @@ pip install -r requirements.txt
 Run the example script:
 
 ```sh
+python app/my_script.py
+# alternatively:
 python -m app.my_script
 ```
 
