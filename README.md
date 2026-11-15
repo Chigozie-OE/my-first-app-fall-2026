@@ -10,7 +10,7 @@ some instructions here
 
 some command here to run our file(s)
 
-Run the exmaple script:
+Run the example script:
 
 '''sh
 python app/my_script.py
