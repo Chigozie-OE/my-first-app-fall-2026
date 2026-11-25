@@ -1,9 +1,5 @@
 # my-first-app-fall-2026
 
-## Live Demo
-
-https://YOUR-APP-NAME.onrender.com
-
 ## Prerequisites
 
 Install python version 3.x (for example using Anaconda).
