@@ -1,4 +1,5 @@
-# this is the "test/rps_test.py" file
+
+# this is the "test/rps_test.py" file...
 
 from app.rps import determine_winner
 
@@ -21,3 +22,9 @@ def test_winners():
     assert determine_winner(u="scissors", c="scissors") == "TIE GAME"
     assert determine_winner(u="scissors", c="paper") == "USER WINS"
     assert determine_winner(u="scissors", c="rock") == "COMPUTER WINS"
+
+
+# you may have more test functions here
+
+
+# another test function here
