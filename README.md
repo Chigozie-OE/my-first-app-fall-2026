@@ -1,8 +1,5 @@
 # my-first-app-fall-2026
 
-## Live Demo
-
-https://YOUR-APP-NAME.onrender.com
 
 ## Prerequisites
 
