@@ -1,11 +1,14 @@
 # my-first-app-fall-2026
 
+## Live Demo
+
+https://YOUR-APP-NAME.onrender.com
+
 ## Prerequisites
 
 Install python version 3.x (for example using Anaconda).
 
 ## Setup
-
 
 1. Clone [the repo](https://github.com/Chigozie-OE/my-first-app-fall-2026) from GitHub, and put it somewhere (like your Desktop).
 2. Navigate to the local repo from the command line (for example if on your desktop):
@@ -31,7 +34,23 @@ conda activate rps-env
 ```sh
 pip install -r requirements.txt
 ```
+
+## Configuration
+
+The stocks functionality requires an AlphaVantage API key. Obtain a premium AlphaVantage API Key (using the [form](https://www.alphavantage.co/support/#api-key) or shared by the prof).
+
+Create a local ".env" file and store your environment variable in there:
+
+```sh
+# this is the ".env" file...
+
+ALPHAVANTAGE_API_KEY="______________"
+```
+
+
 ## Usage
+
+### Command Line App
 
 Run the example script:
 
@@ -42,7 +61,8 @@ python app/my_script.py
 python -m app.my_script
 ```
 
-Play rock, paper, scissors:
+
+Run the RPS game:
 
 ```sh
 python app/rps.py
@@ -50,6 +70,23 @@ python app/rps.py
 # alternatively:
 python -m app.rps
 ```
+
+Run the stocks dashboard:
+
+```sh
+python -m app.stocks
+```
+
+### Web App
+
+To run the web app:
+
+```sh
+FLASK_APP=web_app flask run
+```
+
+To stop the local web server while it is running, press "control+c" from the termal.
+
 
 ## Testing
 
